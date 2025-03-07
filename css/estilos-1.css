@@ -1,0 +1,88 @@
+
+*{
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #c00058;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #d20a68;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    background-color: #e91e63;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.mas-vendidos h2 {
+    font-size: 1.5em;
+    text-align: start;
+    display: flex;
+}
+
+.game-card {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.game-card a {
+    font-weight: bold;
+    color: #c00058;
+    margin-bottom: 10px;
+    text-align: end;
+}
+
+.game-card h3 {
+    text-align: end;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.game-card button {
+    justify-content: center;
+}
+
+.titulo {
+    text-align: end;
+}
+
+.comprar {
+    background: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer {
+    color: #e96093;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+}
