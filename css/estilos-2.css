@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
-
-* {
-    font-family: "Audiowide", sans-serif;
-  }
-  
 body{
     font-family: 'Press Start 2P', cursive;
-    /*background-image: url('fondo.jpg');*/
-    background-image: url('../img/background_img.jpg');
+    background-image: url('fondo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +11,7 @@ body{
     height: auto;
 }
 header{
-    background-color:  rgba(43, 41, 41, 0.749);
+    background-color:  rgba(0, 0, 0, 0.749);
     backdrop-filter: blur(5px);
     border: none;
     display: flex;
@@ -26,49 +19,30 @@ header{
     width: auto;
     height: auto;
 }
-main{
-    display: inline-block;
+p{ 
+    font-weight: bold;
 }
 h1{
-    color: rgb(130, 217, 79);
-    font-size: 50px;
+    color: yellow;
     text-transform: uppercase;
 }
-.game-card{
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
-}
-.game-card h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.game-card p{
-    font-size: 1.5rem;
-    color: yellow;
-}
 .text-1{
-    color: rgb(48, 0, 110);
-    font-size: 35px;
-    text-align: center;
+    color: yellow;
+    text-align: start;
     display: block;
-    
+    background:  rgba(0, 0, 0, 0.489);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     backdrop-filter: blur(5px);
     margin-left: 80px;
     margin-right: 80px;
     padding-left: 40px;
     border-radius: 10px;
+    font-size: 18px;
 }
 .text-2{
-    color: brown;
-    text-align: center;
-    /*background-color: rgb(244, 241, 241);*/
-    background-color: violet;
-    border-style: solid;
-    width: 250px;
-    height: auto; 
-    border-radius: 75px 75px;
+    color: yellow;
+    text-align: end;
 }
 section{
     display: flex;
@@ -77,27 +51,16 @@ section{
     width: auto;
     height: auto;
 }
-.div-1{
-    background: rgba(4, 4, 4, 0.79);
+.game-card{
+    background: rgba(0, 0, 0, 0.489);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: 20px;
     text-align: center;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.div-2{
-    background: rgba(4, 4, 4, 0.79);
-    backdrop-filter: blur(5px);
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: 20px;
-    text-align: center;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease
 }
 img {
     width: auto;
@@ -123,10 +86,6 @@ button:hover{
     background: red;
     transform: scale(1.2);
     text-transform: uppercase;
-    font-weight: bold;
-}
-p{
-    -webkit-text-stroke: 1px black;
     font-weight: bold;
 }
 a{
